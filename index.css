@@ -1,0 +1,38 @@
+* {    
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    height: 3rem;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #33a0ff;
+}
+
+.navbar ul li .submenu {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.navbar ul li:hover .submenu {
+    display: block;
+}
+
+.image-container {
+    padding: 0;
+}
