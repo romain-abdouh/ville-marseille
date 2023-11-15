@@ -71,7 +71,7 @@ main {
     transition: 0.2s;
 }
 .imgplage img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     opacity: 0.25;
 }
 
