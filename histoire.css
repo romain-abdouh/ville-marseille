@@ -2,6 +2,16 @@ main {
     margin-top: 14rem;
 }
 
+h1 {
+    color: #33a0ff;
+    text-shadow: 2px 2px 4px #cccccc;
+}
+
+h2 {
+    color: #33a0ff;
+    text-shadow: 2px 2px 4px #cccccc;
+}
+
 .marseille-image {
     background-image: url(image/histoire-marseille.jpg);
     min-height: 75vh;
@@ -38,7 +48,7 @@ main {
 
 
 
-@media (max-width: 860px) {
+@media screen and (max-width: 860px) {
     .marseille-image {
         margin: 0;
         padding: 0;
@@ -63,4 +73,15 @@ main {
         position: static;
         height: auto;
     }
+}
+
+@media screen and (max-width: 460px) {
+    .image-marseille {
+        gap: 2rem;
+    }
+
+    .image-marseille img {
+        object-fit: cover;
+    }
+    
 }
