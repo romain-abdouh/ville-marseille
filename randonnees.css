@@ -8,7 +8,6 @@
 
 .image__rando {
     transition: 0.3s;
-    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
 }
 
 .image__rando:hover {
@@ -21,24 +20,15 @@
     border-radius: 10px;
 }
 
-h1 {
-    color: #33a0ff;
-    text-shadow: 2px 2px 4px #cccccc;
-}
-
-h2 {
-    color: #33a0ff;
-    text-shadow: 2px 2px 4px #cccccc;
+.imagerando img {
+    box-shadow: 0px 1px 11px 0px rgb(0 0 0);
+    border-radius: 10px;
 }
 
 
 
-@media screen and (max-width: 460px) {
+@media (max-width: 460px) {
     .photorando {
-        width: 330px;
-    }
-
-    .image__rando {
-            width: 100%;
+        width: 100%;
     }
 }
