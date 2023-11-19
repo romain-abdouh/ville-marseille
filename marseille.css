@@ -127,7 +127,7 @@ footer {
     transform: translate(0);
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 860px) {
 
       .image-container {
             display: flex;

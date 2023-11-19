@@ -99,3 +99,10 @@ a {
 .imgplage:hover .overlay-text {
     opacity: 1;
 }
+
+
+@media screen and (max-width: 460px) {
+   .plagedeux {
+    flex-direction: column-reverse;
+   }
+}

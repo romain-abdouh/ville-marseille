@@ -26,6 +26,15 @@
 }
 
 
+@media screen and (max-width: 860px) {
+    .photorando {
+        width: 75%;
+    }
+
+    .photorandodeux {
+        width: 35%;
+    }
+}
 
 @media (max-width: 460px) {
     .photorando {
